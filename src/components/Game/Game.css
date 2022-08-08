@@ -1,0 +1,96 @@
+.game{
+    width: 100%;
+    background-color: #090D07;
+    overflow: hidden;
+}
+.game .container{
+    display: flex;
+}
+.game .left-side{
+    flex: 1;
+    color: #fff;
+    padding: 50px 0px 100px 0px;
+}
+.game .left-side .logo h1{
+    font-family: Mogen;
+    font-size: 4.5em;
+    line-height: 60px;
+}
+.game .left-side .logo .line{
+    height: 5px;
+    width: 60%;
+    background-color: #FEE239;
+    margin-bottom: 30px;
+}
+.game .left-side p{
+    font-size: 14px;
+    width: 65%;
+}
+.game .left-side p > ol{
+    list-style: none;
+}
+.game .left-side .illustration-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-top: 25px;
+}
+.game .left-side .illustration-container img{
+    width: 180px;
+}
+.game .right-side{
+    position: relative;
+    flex: 1;
+}
+.game .right-side > img{
+    position: absolute;
+    bottom: 0;
+    right: -380px;
+    width: 1200px;
+}
+
+@media only screen and (max-width: 1224px) {
+    .game .right-side > img{
+        position: absolute;
+        bottom: 0;
+        right: -300px;
+        width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .game .container{
+        flex-direction: column;
+    }
+    .game .left-side{
+        padding: 50px 0px 0px 0px;
+    }
+    .game .left-side .logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .game .left-side .logo .line{
+        width: 40%;
+        border-radius: 30px;
+    }
+    .game .left-side p{
+        width: 100%;
+        text-align: center;
+    }
+    .game .left-side .illustration-container{
+        width: 100%;
+    }
+    .game .right-side > img{
+        position: relative;
+        right: 0;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .game .left-side .logo .line{
+        width: 60%;
+    }
+}

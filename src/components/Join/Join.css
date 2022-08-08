@@ -1,0 +1,107 @@
+.Join{
+    background-color: #090D07;
+    background-image: url(../../assets/imgs/join/background.svg);
+    background-size: 101%;
+}
+.Join .container{
+    display: flex;
+}
+.Join .left-side{
+    flex: 0.6;
+    display: flex;
+    align-items: center;
+}
+.Join .left-side > .content > h1{
+    font-family: Mogen;
+    font-size: 3.5em;
+    margin: 60px 0px 30px 0px;
+}
+.Join .left-side > .content > p{
+    width: 60%;
+    margin-bottom: 30px;
+}
+.Join .left-side > .content > .links{
+    display: flex;
+}
+.Join .left-side > .content > .links > a{
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #090D07;
+    margin-right: 10px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 14px;
+}
+.Join .left-side > .content > .links > .discord{
+    color: white;
+    background-color: #090D07;
+}
+.Join .left-side > .content > .links > .twitter{
+    color: #090D07;
+}
+.Join .left-side > .content > .links > a > span{
+    margin-left: 10px;
+}
+.Join .right-side{
+    flex: 0.4;
+}
+.Join .right-side > img{
+    width: 100%;
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 1224px) {
+    .Join .right-side > img{
+        width: 90%;
+    }
+    .Join .left-side > .content > h1{
+        font-size: 3em;
+        margin-top: 110px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .Join{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+        background-color: white;
+    }
+    .Join .container{
+        flex-direction: column;
+    }
+    .Join .left-side{
+        flex: 1;
+    }
+    .Join .left-side .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Join .left-side > .content > h1{
+        text-align: center; 
+    }
+    .Join .left-side > .content > .links{
+        flex-direction: column;
+        justify-self: center;
+    }
+    .Join .left-side > .content > .links > a{
+        margin-bottom: 5px;
+        padding: 10px 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Join .right-side{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Join .right-side > img{
+        width: 60%;
+        margin-top: 50px;
+    }
+}

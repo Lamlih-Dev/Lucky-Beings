@@ -1,0 +1,227 @@
+.home{
+    height: 100vh;
+    width: 100%;
+}
+.home > .top-side{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: linear-gradient(180deg,
+        rgba(101,53,105,1) , rgba(145,103,141,1) ,
+        rgba(131,170,43,1) , rgba(228,239,109,1) ,
+        rgba(255,210,9,1)  , rgba(254,226,57,1)  ,
+        rgba(13,105,192,1) , rgba(37,175,243,1)  ,
+        rgba(220,88,95,1)  , rgba(229,130,133,1) );
+    background-size: 100% 800%;
+    transition: all .3s ease-in-out;
+}
+.home > .top-side.illu1{
+    background-position: 100% 0%;
+}
+.home > .top-side.illu2{
+    background-position: 100% 25%; 
+}
+.home > .top-side.illu3{
+    background-position: 100% 50%;
+}
+.home > .top-side.illu4{
+    background-position: 100% 75%;
+}
+.home > .top-side.illu5{
+    background-position: 100% 100%;
+}
+
+.home > .top-side .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 55px;
+}
+.home > .top-side .content h1{
+    font-family: Mogen;
+    font-size: 10.5em;
+    margin: 0;
+    padding: 0;
+}
+.home > .top-side .content p{
+    font-family: HelveticaLight;
+    font-size: 5em;
+    margin: -28px 0px 0px 0px;
+    padding: 0;
+    letter-spacing: 35px;
+}
+.home > .bottom-side{
+    height: 50vh;
+    width: 100%;
+    background-color: #090D07;
+}
+.home > .bottom-side > .social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+    height: 25vh;
+}
+.home > .bottom-side > .social-media > a > img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+.left-pagination{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(100%, -53%);
+    font-family: BAHNSCHRIFT;
+    font-size: 1.4em;
+    z-index: 100;
+}
+.left-pagination .slide-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-pagination .slide-container .item{
+    transform: rotate(90deg);
+    color: black;
+    margin-left: -5px;
+    cursor: context-menu;
+}
+.left-pagination .slide-container .item3,
+.left-pagination .slide-container .item4,
+.left-pagination .slide-container .item5{
+    color: white;
+}
+.left-pagination .slide-container .item.active{
+    transform: rotate(0deg);
+    margin-left: 0px;
+}
+.left-pagination img{
+    width: 23px;
+    height: 23px;
+    object-fit: contain;
+}
+.left-pagination > .slide-container > #prev, #next{
+    cursor: pointer;
+}
+.illustration{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.illustration > img{
+    width: 550px;
+    margin-top: -50px;
+}
+.illustration .stats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3E3F44;
+    border-radius: 50px;
+}
+.illustration .stats-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.illustration .number-nft,
+.illustration .rarity,
+.illustration .collection{
+    font-family: BAHNSCHRIFT;
+    padding-top: 30px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+}
+.illustration .number{
+    color: white;
+    font-size: 4em;
+}
+.illustration p{
+    font-size: 13px;
+    margin: 0;
+    color: #FEE239;
+}
+.illustration > .stats > img{
+    width: 90px;
+    padding: 8px;
+}
+
+@media only screen and (max-width: 793px){
+    .home > .top-side .content h1{
+        font-size: 7em;
+    }
+}
+
+@media only screen and (max-width: 685px){
+    .home > .top-side .content h1{
+        font-size: 6em;
+    }
+    .home > .bottom-side > .social-media{
+        position: absolute;
+        top: 50%;
+        right: 10%;
+        transform: translate(100%, -35%);
+    }
+}
+@media only screen and (max-width: 588px){
+    .illustration > img{
+        width: 400px;
+        margin-top: -50px;
+    }
+    .illustration .number{
+        color: white;
+        font-size: 2.5em;
+    }
+    .illustration .number-nft,
+    .illustration .rarity,
+    .illustration .collection{
+        padding-top: 10px;  
+    }
+    .illustration > .stats > img{
+        width: 80px;
+        padding: 8px;
+    }
+    .left-pagination{
+        font-size: 1em;
+    }
+    .left-pagination .slide-container .item{
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .home > .top-side .content h1{
+        font-size: 4.5em;
+    }
+    .home > .top-side .content p{
+        font-size: 3em;
+        margin-bottom: -10px;
+    }
+    .left-pagination{
+        position: absolute;
+        top: 50%;
+        left: -4%;
+        transform: translate(100%, -53%);
+    }
+    .illustration .number{
+        color: white;
+        font-size: 1.8em;
+    }
+    .illustration > img{
+        width: 350px;
+        margin-top: -10px;
+    }
+}

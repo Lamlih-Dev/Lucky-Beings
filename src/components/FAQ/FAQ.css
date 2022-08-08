@@ -1,0 +1,74 @@
+.faq{
+    width: 100%;
+    background-color: #090D07;
+    padding: 100px 0px;
+}
+.faq .container{
+    display: flex;
+}
+.faq .left-side{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faq .left-side img{
+    width: 100%;
+    margin-left: -150px;
+}
+.faq .right-side{
+    flex: 1;
+    padding: 40px 0px;
+}
+.faq .right-side h1{
+    font-family: Mogen;
+    font-size: 3em;
+    color: wheat;
+    line-height: 50px;
+}
+.faq .right-side .content{
+    margin-top: 50px;
+}
+.faq .right-side .content > ul{
+    padding: 0;
+    margin: 0;
+}
+.faq .right-side .content > ul > li{
+    font-family: HelveticaBold;
+    list-style: none;
+    padding: 20px 0px;
+    border-top: 1px solid #8E8E8E;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    color: white;
+}
+.faq .right-side .content > ul > li > span{
+    font-family: Helvetica;
+    display: inline-block;
+    color: #8E8E8E;
+    transform: scale(2);
+    margin-right: 10px;
+}
+.faq .right-side .content > ul > .collapse > .card{
+    font-family: Helvetica !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .faq .container{
+        flex-direction: column-reverse;
+    }
+    .faq .left-side{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .faq .left-side img{
+        display: none;
+    }
+    .faq .right-side h1{
+        text-align: center;
+    }
+}

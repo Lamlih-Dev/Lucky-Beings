@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: Mogen;
+  src: url("./assets/fonts/Mogen\ Demo\ Version.otf") format("opentype");
+}
+@font-face {
+  font-family: Helvetica;
+  src: url("./assets/fonts/Helvetica.ttf") format("truetype");
+}
+@font-face {
+  font-family: HelveticaBold;
+  src: url("./assets/fonts/Helvetica-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: HelveticaLight;
+  src: url("./assets/fonts/Helvetica\ Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: BAHNSCHRIFT;
+  src: url("./assets/fonts/BAHNSCHRIFT.TTF") format("truetype");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+  font-family: Helvetica;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body::-webkit-scrollbar{
+  width: 0.5em;
+}
+body::-webkit-scrollbar-track{
+  background: #090D07;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: #fff;
+  border-radius: 100vw;
+  border: 1px solid #090D07;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@supports (scrollbar-color: red blue){
+  *{
+    scrollbar-color: #fff #090D07;
+    scrollbar-width: thin;
   }
 }

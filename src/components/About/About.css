@@ -1,0 +1,187 @@
+.about{
+    width: 100%;
+    background-color: #090D07;
+    padding: 100px 0px;
+}
+.about > .container > .content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3em;
+}
+.about .alien-type{
+    background-color: #3E3F44;
+    grid-column: 1/3;
+    position: relative;
+}
+.about .alien-type img{
+    width: 200px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.about .alien-type .alien-type-content{
+    padding: 15px;
+    width: 70%;
+}
+.about .alien-type .alien-type-content h1{
+    font-family: HelveticaBold;
+    color: #FEE239;
+    font-size: 2.2em;
+}
+.about .alien-type .alien-type-content p{
+    color: #fff;
+    font-size: 11px;
+    width: 80%;
+    text-align: justify;
+}
+.about .discord{
+    position: relative;
+    background-color: #3E3F44;
+}
+.about .discord > img{
+    position: absolute;
+    width: 140%;
+    height: 140%;
+    left: -50px;
+    top: -45px;
+    object-fit: contain;
+}
+.about .discord .inner{
+    background-color: #FEE239;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(25% at 90% 90%);
+    position: relative;
+}
+.about .discord .inner > img{
+    position: absolute;
+    bottom: 13px;
+    right: 13px;
+    width: 40px;
+}
+.about .store{
+    position: relative;
+    background: #FEE239;
+    grid-column: 4/5;
+    grid-row: 1/3;
+    padding: 15px;
+}
+.about .store > img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about .store .store-content{
+    position: relative;
+    z-index: 100;
+}
+.about .store .store-content h1{
+    font-family: HelveticaBold;
+    color: #fff;
+    font-size: 2.2em;
+    line-height: 35px;
+}
+.about .store .store-content p{
+    color: #fff;
+    font-size: 11px;
+    width: 80%;
+    text-align: justify;
+}
+.about .robots{
+    background-color: #3E3F44;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.about .robots h1{
+    font-family: HelveticaBold;
+    color: #FEE239;
+    font-size: 2.2em;
+}
+.about .robots p{
+    color: #fff;
+    font-size: 11px;
+    width: 80%;
+    text-align: justify;
+}
+.about .robots img{
+    width: 30px;
+    margin-left: 60px;
+}
+.about .game{
+    background-color: #3E3F44;
+    grid-column: 2/4;
+    padding: 15px;
+    background-image: url(../../assets/imgs/about-page/elyns.png);
+    background-size: 120% 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+}
+.about .game h1{
+    font-family: HelveticaBold;
+    color: #FEE239;
+    font-size: 2.2em;
+}
+.about .game p{
+    color: #fff;
+    font-size: 11px;
+    width: 40%;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 991px){
+    .about .alien-type{
+        grid-column: 1/3;
+    }
+    .about .discord{
+        grid-column: 3/5;
+    }
+    .about .discord > img{
+        width: 120%;
+        height: 120%;
+        left: -20px;
+        top: -40px;
+    }
+    .about .robots{
+        grid-column: 1/2;
+    }
+    .about .game{
+        grid-column: 2/5;
+        background-size: 190% 100%;
+    }
+    .about .store{
+        grid-column: 1/5;
+        grid-row: 3/7;
+    }
+}
+@media only screen and (max-width: 767px){
+    .about .alien-type{
+        grid-column: 1/5;
+        grid-row: 1/2;
+    }
+    .about .discord{
+        display: none;
+    }
+    .about .robots{
+        grid-column: 1/5;
+        grid-row: 2/3;
+    }
+    .about .game{
+        grid-column: 1/5;
+        grid-row: 3/4;
+        background-size: 120% 100%;
+    }
+    .about .store{
+        grid-column: 1/5;
+        grid-row: 4/6;
+    }
+}
+@media only screen and (max-width: 588px){
+    .about{
+        padding: 0px 0px 100px 0px;
+    }
+}

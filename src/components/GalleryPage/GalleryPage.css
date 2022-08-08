@@ -1,0 +1,8 @@
+.gallery-page{
+    display: flex;
+    align-items: center;
+}
+.gallery-page > img{
+    width: 20%;
+    object-fit: cover;
+}
