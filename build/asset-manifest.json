@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3d3542c6.css",
+    "main.js": "/static/js/main.3b3b1df0.js",
+    "static/js/787.09628a66.chunk.js": "/static/js/787.09628a66.chunk.js",
+    "static/media/main.png": "/static/media/main.3f4c9ff1944c4cce86e6.png",
+    "static/media/Illustration 3.png": "/static/media/Illustration 3.97c8f69948c13cf76823.png",
+    "static/media/1.png": "/static/media/1.5ce8e6284f5f4a88d9b5.png",
+    "static/media/Illustration 5.png": "/static/media/Illustration 5.cc6fef884a4dca9d99d9.png",
+    "static/media/main-photo.png": "/static/media/main-photo.1b2d0dea787864b1d547.png",
+    "static/media/3.png": "/static/media/3.acd59f5f0b579e240cfb.png",
+    "static/media/2.png": "/static/media/2.330694a4df07ad296124.png",
+    "static/media/Illustration 2.png": "/static/media/Illustration 2.fcae4fde99c36a561f45.png",
+    "static/media/Illustration 1.png": "/static/media/Illustration 1.51bb0411b58be498fc3d.png",
+    "static/media/4.png": "/static/media/4.9239ca722b13fa60a46e.png",
+    "static/media/Illustration 4.png": "/static/media/Illustration 4.f4dde6a4f687234a17ab.png",
+    "static/media/5.png": "/static/media/5.680a1bcdfe7c11104150.png",
+    "static/media/faq-img.png": "/static/media/faq-img.4600f295458c3d0f6d29.png",
+    "static/media/BAHNSCHRIFT.TTF": "/static/media/BAHNSCHRIFT.b00e12e37c52124aa504.TTF",
+    "static/media/Helvetica.ttf": "/static/media/Helvetica.06113bf748ae7dc33e05.ttf",
+    "static/media/store-background.png": "/static/media/store-background.032239f3b2a6fd0c9fdf.png",
+    "static/media/Helvetica-Bold.ttf": "/static/media/Helvetica-Bold.ed57aca7292971d8548c.ttf",
+    "static/media/elyns.png": "/static/media/elyns.7bfd8b7847eb45607282.png",
+    "static/media/alien-type.png": "/static/media/alien-type.7a7b1a878405a109ce58.png",
+    "static/media/7art.png": "/static/media/7art.54b75884ad0a32b8389f.png",
+    "static/media/Mogen Demo Version.otf": "/static/media/Mogen Demo Version.3843a074814dc26680b8.otf",
+    "static/media/Helvetica Light.ttf": "/static/media/Helvetica Light.72eb4e0cff09cfd6483f.ttf",
+    "static/media/background.svg": "/static/media/background.b6499549ab6117bfa8b3.svg",
+    "index.html": "/index.html",
+    "main.3d3542c6.css.map": "/static/css/main.3d3542c6.css.map",
+    "main.3b3b1df0.js.map": "/static/js/main.3b3b1df0.js.map",
+    "787.09628a66.chunk.js.map": "/static/js/787.09628a66.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d3542c6.css",
+    "static/js/main.3b3b1df0.js"
+  ]
+}

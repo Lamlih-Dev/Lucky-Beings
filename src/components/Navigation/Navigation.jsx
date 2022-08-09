@@ -16,11 +16,11 @@ const Navigation = () => {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link" href="./">Home</a>
-                        <a class="nav-link" href="./">NFT'S</a>
-                        <a class="nav-link" href="./">About Us</a>
-                        <a class="nav-link" href="./">FAQ</a>
-                        <a class="nav-link" href="./">
+                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#">NFT'S</a>
+                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#">FAQ</a>
+                        <a class="nav-link" href="#">
                             <img src={SearchLogo} alt="search" width="25px" height="25px"/>
                         </a>
                     </div>
